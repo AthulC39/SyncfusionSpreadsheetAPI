@@ -14,7 +14,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReactApp", policy =>
     {
-        policy.WithOrigins("http://localhost:3002") // Replace with your React app URL
+        policy.WithOrigins("https://elemmentmmpfrontenddemo.onrender.com") // Replace with your React app URL
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
