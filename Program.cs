@@ -14,7 +14,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReactApp", policy =>
     {
-        policy.WithOrigins("https://elemmentmmpfrontenddemo.onrender.com") // Replace with your React app URL
+        policy.WithOrigins("https://elemment-mmp-frontend-demo-zum5.vercel.app") // Replace with your React app URL
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
