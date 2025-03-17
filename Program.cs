@@ -14,7 +14,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReactApp", policy =>
     {
-        policy.WithOrigins("https://elemment-mmp-frontend-demo-zum5.vercel.app", "http://localhost:3002")
+        policy.WithOrigins("https://elemment-mmp-frontend-demo.vercel.app", "http://localhost:3002")
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
