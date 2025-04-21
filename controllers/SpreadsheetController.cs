@@ -27,7 +27,7 @@ namespace SpreadsheetService.Controllers
          
        [HttpPost("save")]
         public IActionResult Save([FromForm] SaveSettings saveSettings)
-        {
+        { 
             // This method uses Syncfusion's Workbook.Save to process the workbook data.
             // It returns a file stream (FileContentResult) that the client can use to download the file.
             return Workbook.Save(saveSettings);

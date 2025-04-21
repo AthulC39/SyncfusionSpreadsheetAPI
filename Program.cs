@@ -30,7 +30,7 @@ app.UseHttpsRedirection();
 
 // Use the defined CORS policy
 app.UseCors("AllowReactApp");
-`
+
 app.UseAuthorization();
 
 app.MapControllers();
