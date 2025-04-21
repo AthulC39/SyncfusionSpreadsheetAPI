@@ -14,7 +14,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReactApp", policy =>
     {
-        policy.WithOrigins("https://elemment-mmp-frontend-demo.vercel.app", "http://localhost:3002","http://localhost:3000","http://localhost:3001")
+        policy.WithOrigins("https://elemment-mmp-frontend-demo.vercel.app", "http://localhost:3002","http://localhost:3000","http://localhost:3001","https://elemment-mmp-frontend-demo-v49e.vercel.app/")
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
@@ -30,7 +30,7 @@ app.UseHttpsRedirection();
 
 // Use the defined CORS policy
 app.UseCors("AllowReactApp");
-
+`
 app.UseAuthorization();
 
 app.MapControllers();
