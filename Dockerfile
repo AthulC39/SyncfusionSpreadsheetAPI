@@ -1,31 +1,31 @@
-# 1. Build stage: restore and publish your app
+# 1. Build stage: restore and publish the .NET app
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# Copy csproj and restore dependencies
+# Copy the project file and restore dependencies
 COPY ["SpreadsheetService.csproj", "./"]
 RUN dotnet restore "./SpreadsheetService.csproj"
 
-# Copy everything else and publish
+# Copy the remaining source code and publish the app
 COPY . .
 RUN dotnet publish "SpreadsheetService.csproj" -c Release -o /app/publish
 
-# 2. Runtime stage: install native libs & deploy the published output
+# 2. Runtime stage: install native libraries and deploy the published output
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
 WORKDIR /app
 
 # Install SkiaSharp native dependencies
 RUN apt-get update \
  && apt-get install -y \
-      fontconfig \       # provides libfontconfig.so.1 \
-      libice6 \          # X11 support for certain Skia backends \
-      libsm6 \
+      libfontconfig1 \    # provides libfontconfig.so.1 for font metrics \
+      libice6 \           # X11 session support \
+      libsm6              # X11 session support \
  && rm -rf /var/lib/apt/lists/*
 
-# Copy the published app from build stage
+# Copy the published app from the build stage
 COPY --from=build /app/publish .
 
-# Expose ports and start
+# Expose ports and define entrypoint
 EXPOSE 80
 EXPOSE 443
 ENTRYPOINT ["dotnet", "SpreadsheetService.dll"]
