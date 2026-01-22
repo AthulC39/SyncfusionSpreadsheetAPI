@@ -1,4 +1,6 @@
 using Microsoft.AspNetCore.Http.Features;
+using Syncfusion.Licensing;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,7 +26,9 @@ builder.Services.AddCors(options =>
 builder.Services.AddControllers();
 
 var app = builder.Build();
-SyncfusionLicenseProvider.RegisterLicense(builder.Configuration["Syncfusion:LicenseKey"]);
+SyncfusionLicenseProvider.RegisterLicense(
+    builder.Configuration["Syncfusion:LicenseKey"]
+);
 // Configure the HTTP request pipeline
 app.UseHttpsRedirection();
 

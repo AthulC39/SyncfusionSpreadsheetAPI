@@ -12,6 +12,7 @@
     <PackageReference Include="Syncfusion.EJ2.Spreadsheet.AspNet.Core" Version="28.2.9" />
      <PackageReference Include="SkiaSharp" Version="3.116.1" />
   <PackageReference Include="SkiaSharp.NativeAssets.Linux" Version="3.116.1" />
+  <PackageReference Include="Syncfusion.Licensing" Version="32.1.24" />
   </ItemGroup>
  
 

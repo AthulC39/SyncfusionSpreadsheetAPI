@@ -355,7 +355,7 @@
           "lib/netstandard2.1/Syncfusion.EJ2.Spreadsheet.dll": {}
         }
       },
-      "Syncfusion.Licensing/28.2.9": {
+      "Syncfusion.Licensing/32.1.24": {
         "type": "package",
         "compile": {
           "lib/net8.0/Syncfusion.Licensing.dll": {}
@@ -492,440 +492,6 @@
             "assetType": "runtime",
             "rid": "win"
           }
-        }
-      },
-      "System.Text.Json/8.0.5": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0/System.Text.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/System.Text.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/System.Text.Json.targets": {}
-        }
-      }
-    },
-    "net8.0/linux-x64": {
-      "BitMiracle.LibTiff.NET/2.4.649": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/BitMiracle.LibTiff.NET.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/BitMiracle.LibTiff.NET.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "HarfBuzzSharp/8.3.0.1": {
-        "type": "package",
-        "dependencies": {
-          "HarfBuzzSharp.NativeAssets.Win32": "8.3.0.1",
-          "HarfBuzzSharp.NativeAssets.macOS": "8.3.0.1"
-        },
-        "compile": {
-          "lib/net8.0/HarfBuzzSharp.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/HarfBuzzSharp.dll": {
-            "related": ".pdb"
-          }
-        }
-      },
-      "HarfBuzzSharp.NativeAssets.macOS/8.3.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0/_._": {}
-        },
-        "runtime": {
-          "lib/net8.0/_._": {}
-        }
-      },
-      "HarfBuzzSharp.NativeAssets.Win32/8.3.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0/_._": {}
-        },
-        "runtime": {
-          "lib/net8.0/_._": {}
-        }
-      },
-      "Microsoft.AspNetCore.OpenApi/8.0.13": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.OpenApi": "1.4.3"
-        },
-        "compile": {
-          "lib/net8.0/Microsoft.AspNetCore.OpenApi.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.AspNetCore.OpenApi.dll": {
-            "related": ".xml"
-          }
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
-      },
-      "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
-        "type": "package",
-        "build": {
-          "build/Microsoft.Extensions.ApiDescription.Server.props": {},
-          "build/Microsoft.Extensions.ApiDescription.Server.targets": {}
-        },
-        "buildMultiTargeting": {
-          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.props": {},
-          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets": {}
-        }
-      },
-      "Microsoft.NETCore.Platforms/2.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard1.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard1.0/_._": {}
-        }
-      },
-      "Microsoft.OpenApi/1.6.14": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Newtonsoft.Json/13.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "SkiaSharp/3.116.1": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp.NativeAssets.Win32": "3.116.1",
-          "SkiaSharp.NativeAssets.macOS": "3.116.1"
-        },
-        "compile": {
-          "ref/net8.0/SkiaSharp.dll": {}
-        },
-        "runtime": {
-          "lib/net8.0/SkiaSharp.dll": {
-            "related": ".pdb"
-          }
-        }
-      },
-      "SkiaSharp.HarfBuzz/3.116.1": {
-        "type": "package",
-        "dependencies": {
-          "HarfBuzzSharp": "8.3.0.1",
-          "SkiaSharp": "3.116.1"
-        },
-        "compile": {
-          "lib/net8.0/SkiaSharp.HarfBuzz.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/SkiaSharp.HarfBuzz.dll": {
-            "related": ".pdb"
-          }
-        }
-      },
-      "SkiaSharp.NativeAssets.Linux/3.116.1": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0/_._": {}
-        },
-        "runtime": {
-          "lib/net8.0/_._": {}
-        },
-        "native": {
-          "runtimes/linux-x64/native/libSkiaSharp.so": {},
-          "runtimes/linux-x64/native/libSkiaSharp.so.116.0.0": {}
-        }
-      },
-      "SkiaSharp.NativeAssets.macOS/3.116.1": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0/_._": {}
-        },
-        "runtime": {
-          "lib/net8.0/_._": {}
-        }
-      },
-      "SkiaSharp.NativeAssets.Win32/3.116.1": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0/_._": {}
-        },
-        "runtime": {
-          "lib/net8.0/_._": {}
-        }
-      },
-      "Swashbuckle.AspNetCore/6.6.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
-          "Swashbuckle.AspNetCore.Swagger": "6.6.2",
-          "Swashbuckle.AspNetCore.SwaggerGen": "6.6.2",
-          "Swashbuckle.AspNetCore.SwaggerUI": "6.6.2"
-        },
-        "build": {
-          "build/Swashbuckle.AspNetCore.props": {}
-        }
-      },
-      "Swashbuckle.AspNetCore.Swagger/6.6.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.OpenApi": "1.6.14"
-        },
-        "compile": {
-          "lib/net8.0/Swashbuckle.AspNetCore.Swagger.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Swashbuckle.AspNetCore.Swagger.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
-      },
-      "Swashbuckle.AspNetCore.SwaggerGen/6.6.2": {
-        "type": "package",
-        "dependencies": {
-          "Swashbuckle.AspNetCore.Swagger": "6.6.2"
-        },
-        "compile": {
-          "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Swashbuckle.AspNetCore.SwaggerUI/6.6.2": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
-      },
-      "Syncfusion.Compression.Net.Core/28.2.9": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0/Syncfusion.Compression.Portable.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Syncfusion.Compression.Portable.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Syncfusion.EJ2.AspNet.Core/28.2.9": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "13.0.2",
-          "Syncfusion.Licensing": "28.2.9"
-        },
-        "compile": {
-          "lib/net8.0/Syncfusion.EJ2.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Syncfusion.EJ2.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Syncfusion.EJ2.Spreadsheet.AspNet.Core/28.2.9": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.EJ2.AspNet.Core": "28.2.9",
-          "Syncfusion.XlsIORenderer.Net.Core": "28.2.9",
-          "System.Text.Json": "8.0.5"
-        },
-        "compile": {
-          "lib/netstandard2.1/Syncfusion.EJ2.Spreadsheet.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.1/Syncfusion.EJ2.Spreadsheet.dll": {}
-        }
-      },
-      "Syncfusion.Licensing/28.2.9": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0/Syncfusion.Licensing.dll": {}
-        },
-        "runtime": {
-          "lib/net8.0/Syncfusion.Licensing.dll": {}
-        }
-      },
-      "Syncfusion.MetafileRenderer.NET/28.2.9": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "3.116.1",
-          "Syncfusion.Licensing": "28.2.9"
-        },
-        "compile": {
-          "lib/net8.0/Syncfusion.MetafileRenderer.NET.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Syncfusion.MetafileRenderer.NET.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Syncfusion.Pdf.Imaging.Net.Core/28.2.9": {
-        "type": "package",
-        "dependencies": {
-          "BitMiracle.LibTiff.NET": "2.4.649",
-          "SkiaSharp": "3.116.1",
-          "Syncfusion.Compression.Net.Core": "28.2.9",
-          "Syncfusion.Pdf.Net.Core": "28.2.9"
-        },
-        "compile": {
-          "lib/net8.0/Syncfusion.Pdf.Imaging.Portable.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Syncfusion.Pdf.Imaging.Portable.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Syncfusion.Pdf.Net.Core/28.2.9": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Compression.Net.Core": "28.2.9",
-          "Syncfusion.Licensing": "28.2.9",
-          "System.Text.Encoding.CodePages": "4.4.0"
-        },
-        "compile": {
-          "lib/net8.0/Syncfusion.Pdf.Portable.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Syncfusion.Pdf.Portable.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Syncfusion.SkiaSharpHelper.Net.Core/28.2.9": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp.HarfBuzz": "3.116.1",
-          "Syncfusion.Compression.Net.Core": "28.2.9"
-        },
-        "compile": {
-          "lib/net8.0/Syncfusion.SkiaSharpHelper.Portable.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Syncfusion.SkiaSharpHelper.Portable.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Syncfusion.XlsIO.Net.Core/28.2.9": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Compression.Net.Core": "28.2.9",
-          "Syncfusion.Licensing": "28.2.9"
-        },
-        "compile": {
-          "lib/net8.0/Syncfusion.XlsIO.Portable.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Syncfusion.XlsIO.Portable.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Syncfusion.XlsIORenderer.Net.Core/28.2.9": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "3.116.1",
-          "Syncfusion.Compression.Net.Core": "28.2.9",
-          "Syncfusion.MetafileRenderer.NET": "28.2.9",
-          "Syncfusion.Pdf.Imaging.Net.Core": "28.2.9",
-          "Syncfusion.Pdf.Net.Core": "28.2.9",
-          "Syncfusion.SkiaSharpHelper.Net.Core": "28.2.9",
-          "Syncfusion.XlsIO.Net.Core": "28.2.9"
-        },
-        "compile": {
-          "lib/net8.0/Syncfusion.XlsIORenderer.Portable.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Syncfusion.XlsIORenderer.Portable.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Text.Encoding.CodePages/4.4.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.0.0"
-        },
-        "compile": {
-          "ref/netstandard2.0/System.Text.Encoding.CodePages.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {}
         }
       },
       "System.Text.Json/8.0.5": {
@@ -1681,26 +1247,22 @@
         "syncfusion_logo.png"
       ]
     },
-    "Syncfusion.Licensing/28.2.9": {
-      "sha512": "JLmGHJ/dX5kSzvF9dvecjwDHOI4hWrXeg3rxyYRUbDWMh7CGjkBXL4B+BZxqbd9pseAk0AfuxW3pHMP+biSIgg==",
+    "Syncfusion.Licensing/32.1.24": {
+      "sha512": "DuxRYndFb8ULyBYIk8GG/65+D4XH/1D7bedvgXR42PC6Y6Uhnq3uh7IUpnIe521UFVmL3gTDRbhxyLnxiLdRpA==",
       "type": "package",
-      "path": "syncfusion.licensing/28.2.9",
+      "path": "syncfusion.licensing/32.1.24",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.txt",
         "README.md",
-        "lib/MonoAndroid90/Syncfusion.Licensing.dll",
-        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
-        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net10.0/Syncfusion.Licensing.dll",
         "lib/net462/Syncfusion.Licensing.dll",
-        "lib/net6.0/Syncfusion.Licensing.dll",
-        "lib/net7.0/Syncfusion.Licensing.dll",
         "lib/net8.0/Syncfusion.Licensing.dll",
         "lib/net9.0/Syncfusion.Licensing.dll",
         "lib/netstandard2.0/Syncfusion.Licensing.dll",
         "lib/uap10.0/Syncfusion.Licensing.dll",
-        "syncfusion.licensing.28.2.9.nupkg.sha512",
+        "syncfusion.licensing.32.1.24.nupkg.sha512",
         "syncfusion.licensing.nuspec",
         "syncfusion_logo.png"
       ]
@@ -1976,7 +1538,8 @@
       "SkiaSharp >= 3.116.1",
       "SkiaSharp.NativeAssets.Linux >= 3.116.1",
       "Swashbuckle.AspNetCore >= 6.6.2",
-      "Syncfusion.EJ2.Spreadsheet.AspNet.Core >= 28.2.9"
+      "Syncfusion.EJ2.Spreadsheet.AspNet.Core >= 28.2.9",
+      "Syncfusion.Licensing >= 32.1.24"
     ]
   },
   "packageFolders": {
@@ -2041,6 +1604,10 @@
           "Syncfusion.EJ2.Spreadsheet.AspNet.Core": {
             "target": "Package",
             "version": "[28.2.9, )"
+          },
+          "Syncfusion.Licensing": {
+            "target": "Package",
+            "version": "[32.1.24, )"
           }
         },
         "imports": [
@@ -2054,12 +1621,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.linux-x64",
-            "version": "[8.0.13, 8.0.13]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -2069,11 +1630,6 @@
           }
         },
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.406/PortableRuntimeIdentifierGraph.json"
-      }
-    },
-    "runtimes": {
-      "linux-x64": {
-        "#import": []
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7ZJ1YVdqs0s=",
+  "dgSpecHash": "SbqaUObGTdo=",
   "success": true,
   "projectFilePath": "/Users/athulcharanthara/Desktop/SpreadsheetService/SpreadsheetService.csproj",
   "expectedPackageFiles": [
@@ -25,7 +25,7 @@
     "/Users/athulcharanthara/.nuget/packages/syncfusion.compression.net.core/28.2.9/syncfusion.compression.net.core.28.2.9.nupkg.sha512",
     "/Users/athulcharanthara/.nuget/packages/syncfusion.ej2.aspnet.core/28.2.9/syncfusion.ej2.aspnet.core.28.2.9.nupkg.sha512",
     "/Users/athulcharanthara/.nuget/packages/syncfusion.ej2.spreadsheet.aspnet.core/28.2.9/syncfusion.ej2.spreadsheet.aspnet.core.28.2.9.nupkg.sha512",
-    "/Users/athulcharanthara/.nuget/packages/syncfusion.licensing/28.2.9/syncfusion.licensing.28.2.9.nupkg.sha512",
+    "/Users/athulcharanthara/.nuget/packages/syncfusion.licensing/32.1.24/syncfusion.licensing.32.1.24.nupkg.sha512",
     "/Users/athulcharanthara/.nuget/packages/syncfusion.metafilerenderer.net/28.2.9/syncfusion.metafilerenderer.net.28.2.9.nupkg.sha512",
     "/Users/athulcharanthara/.nuget/packages/syncfusion.pdf.imaging.net.core/28.2.9/syncfusion.pdf.imaging.net.core.28.2.9.nupkg.sha512",
     "/Users/athulcharanthara/.nuget/packages/syncfusion.pdf.net.core/28.2.9/syncfusion.pdf.net.core.28.2.9.nupkg.sha512",
@@ -33,8 +33,7 @@
     "/Users/athulcharanthara/.nuget/packages/syncfusion.xlsio.net.core/28.2.9/syncfusion.xlsio.net.core.28.2.9.nupkg.sha512",
     "/Users/athulcharanthara/.nuget/packages/syncfusion.xlsiorenderer.net.core/28.2.9/syncfusion.xlsiorenderer.net.core.28.2.9.nupkg.sha512",
     "/Users/athulcharanthara/.nuget/packages/system.text.encoding.codepages/4.4.0/system.text.encoding.codepages.4.4.0.nupkg.sha512",
-    "/Users/athulcharanthara/.nuget/packages/system.text.json/8.0.5/system.text.json.8.0.5.nupkg.sha512",
-    "/Users/athulcharanthara/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.13/microsoft.netcore.app.host.linux-x64.8.0.13.nupkg.sha512"
+    "/Users/athulcharanthara/.nuget/packages/system.text.json/8.0.5/system.text.json.8.0.5.nupkg.sha512"
   ],
   "logs": []
 }
